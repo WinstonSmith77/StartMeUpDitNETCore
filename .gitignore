@@ -1,0 +1,42 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET temp files
+*.dbmdl
+*.bak
+*.sql
+
+# Others
+TestResults/
+*.vspscc
+*.vssscc
+*.tmp
+*.~*
+
+# Auto-generated files
+Generated_Code/
+
+# Publish output
+publish/
