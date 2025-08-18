@@ -1,10 +1,13 @@
-﻿namespace ConsoleApp1
+﻿using System.Collections.Generic;
+using Implementation;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var first = new First();
         }
     }
 }
