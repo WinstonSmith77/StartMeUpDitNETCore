@@ -1,13 +1,11 @@
-﻿using ImplementationInner;
-using Interfaces;
+﻿using Interfaces;
 
-namespace Implementation2
+namespace ImplementationInner
 {
-    public class Second : IFirst
+    public class Inner : IFirst
     {
         public void DoIt()
         {
-            var inner = new Inner();
             var a = 321 + 2 + 1 + 21;
             throw new NotImplementedException();
         }
