@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Implementation;
 using Implementation2;
+using ImplementationInner;
 
 namespace ConsoleApp1
 {
@@ -11,6 +12,7 @@ namespace ConsoleApp1
             var first = new First();
 
             var second = new Second();
+            var inner = new Inner();
         }
     }
 }
